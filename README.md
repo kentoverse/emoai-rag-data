@@ -4,7 +4,8 @@ Developmental Project by MO Cavada
 
 The "Emotional AI" project aims to create a comprehensive platform for introspection and emotional analysis. The project is structured to serve multiple purposes, including acting as an API server, providing an admin UI for data management and analysis, and planning for future expansion to include a cross-platform mobile version for public users.
 
-* Prerelease Prototype: - [Emotional-AI](https://www.kentoverse.com)
+* Admin Prototype: - [Dataset Procssing and Analysis for Conext Embedding and Relevant Testing from AI Models](https://www.kentoverse.com)
+* Chat Prototype: - [Cross-platform App using Expo (React-Native)](https://www.botski.info)
 * Working Case Studies: - [Research](https://medium.com/@motato_42768/e-a-i-24014e13a592)
   
 
@@ -25,9 +26,19 @@ These 3 constants are:
 3. **Moments (Timeline Connections of Influence and Effect)**: This constant focuses on the temporal aspects of relationships, stressing the significance of past reflections, future insights, and present awareness. By introspecting on these moments, individuals can gain deeper insights into their interactions and connections.
 
 
-## Purpose
+## Purpose and Alignment to Technology
 
 To create an app that guides users through introspection using “The 3 Constants of Human Connection.” This app will teach users how to understand their interactions, the influences of these interactions, and the underlying causes rooted in our past and present experiences can define potential outcomes in our future.
+
+ ### Reflection App, the following design patterns would align most closely:
+
+	1.	In-context Learning – Since the app provides personalized reflections based on user inputs, AI-generated content, and spiritual insights, this aligns with in-context learning. The model adapts to the user’s input to provide emotionally attuned and spiritually relevant guidance, akin to personalized AI responses.
+
+	2.	Data Preprocessing / Embedding – The Reflection App likely uses data preprocessing to convert user inputs into a form that can be embedded for further processing by the AI model. This embedding allows the app to analyze the emotional and spiritual content of journaling entries, enhancing the personalized nature of the insights.
+
+	3.	Prompt Construction / Retrieval – In generating AI-powered reflections and insights, the app would involve constructing prompts based on user data and retrieving relevant Bible verses or spiritual content. The alignment with Sentiment Analysis also suggests that the prompts are crafted to be contextually relevant to the user’s emotional state.
+
+	4.	Prompt Execution / Inference – The AI model (e.g., ChatGPT or other language models) takes the constructed prompts and executes them to generate personalized insights. This is core to delivering reflections based on the user’s journaling and ensuring that they are emotionally and spiritually attuned.
 
 ## The Introspection Process
 
