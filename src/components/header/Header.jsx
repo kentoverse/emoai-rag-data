@@ -95,7 +95,7 @@ export default memo(function HeaderView() {
           aria-label="Client App"
           onClick={() => {
             window.open(
-              'https://www.maap.one',
+              'https://www.botski.info',
               '_blank',
             );
           }}

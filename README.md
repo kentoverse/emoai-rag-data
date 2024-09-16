@@ -453,7 +453,7 @@ veloper.mozilla.org/en-US/docs/Web/API/Web_components)
 ### 2. Mobile App (User)
    - A cross-platform mobile app will be developed using frameworks such as React Native or Flutter, ensuring optimized mobile experiences for public users.
 
-* Test UI Prototype: - [MaaP](https://www.maap.com)
+* Test UI Prototype: - [IntroSpirit](https://www.botski.info)
 
 
 
