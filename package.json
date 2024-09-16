@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "@emoai/analysis",
   "version": "1.0.0-beta",
+=======
+  "name": "InspectorRAGet",
+  "version": "1.0.1",
+>>>>>>> 8f9af60 (chore: Bump version.)
   "private": true,
   "description": "An Introspection Platform",
   "author": "kpfadnis@us.ibm.com",
