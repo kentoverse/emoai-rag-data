@@ -90,7 +90,7 @@ function populateTableRows(
       }
 
       // Step 2.b: Add first target, if present
-      if (task.targets && !isEmpty(task.targets) && task.targets[0].text) {
+      if (task.targets && !isEmpty(task.targets)) {
         row['targets'] = task.targets
           .map((target) => [target.text])
           .filter((entry) => entry !== undefined);
@@ -299,7 +299,7 @@ export default function PredictionsTable({
                           >
                             {row.cells.map((cell) => (
                               <TableCell key={cell.id}>
-                                {cell.info.header === 'targets'
+                                {cell.info.header === 'targets' && cell.value
                                   ? cell.value.length > 1
                                     ? cell.value.map(
                                         (targetText, targetIdx) => (
