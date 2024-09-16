@@ -435,25 +435,8 @@ emotional-AI/
 ├── public-web-app/
 │   ├── src/
 │   ├── public/
-│   ├── package.json
-│   └── ...
-├── mobile-app/
-│   ├── src/
-│   ├── android/
-│   ├── ios/
-│   ├── package.json
-│   └── ...
-└── docker-compose.yml
-
-```
-## Future Components
-
-### 1. Web App (User)
-- Start a new project for the public-facing web app.
-- Use Next.js app with server components to design the UI.
-- Connect the web app to the backend API for data and user interactions.
-- A future project will be initiated for the public-facing web app, utilizing UI libraries like Tailwind CSS or `schadcdn/ui` to design the user interface.
-- Web Based Component Architecture: a framework for building applications using reusable components. Each component is encapsulated with well-defined functionality, typically stored in a library, and can be integrated into an application without affecting other components. This approach allows for modular development, making it easier to manage and distribute features across different platforms, including web and mobile applications. [More Details](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
+i;'/
+veloper.mozilla.org/en-US/docs/Web/API/Web_components)
 - Anothe option to consider is the Micro Frontend Architecture with Module Federation to manage dependencies. 
 
 ### 2. Mobile App (User)
@@ -466,3 +449,33 @@ emotional-AI/
 
 
 
+### Simplified Explanation: In-Context Learning
+
+**In-context learning** is a method for using large language models (LLMs), like GPT-4, without needing to fine-tune or retrain them. Instead of modifying the model itself, we control its behavior by giving it specific "context" through prompts. This makes it easy to use while keeping the process efficient.
+
+### Example of In-Context Learning:
+Imagine you’re building a chatbot to answer questions about legal documents. A simple approach might be to paste all the documents into the prompt and then ask a question. While this could work for small documents, it doesn't work well when you have a large dataset. For instance, GPT-4 has a limit on how much text it can process at once (about 50 pages). If you exceed that, the model performs worse and takes longer.
+
+**In-context learning** fixes this by sending only the most relevant documents to the LLM, instead of dumping everything. The LLM then uses those relevant documents to answer the question effectively.
+
+### How It Works:
+1. **Data Preparation/Embedding**: 
+   - First, your documents (like legal files) are broken into chunks and processed into a format the model can understand, called "embeddings."
+   - These chunks are stored in a special database, called a **vector database**, which is designed to find and retrieve similar or relevant documents quickly.
+
+2. **Prompt Construction/Retrieval**:
+   - When the user asks a question (like a legal query), the system finds the most relevant chunks of text from the vector database.
+   - A prompt is then created by combining a pre-defined template, some example outputs, and the relevant documents.
+
+3. **Prompt Execution**:
+   - This constructed prompt is sent to the LLM (such as GPT-4), which processes the information and gives an answer. Developers often include extra features like logging (keeping track of requests) and caching (saving previous results to avoid reprocessing) to make this step more efficient.
+
+### Why Is This Useful?
+- **No Need for Fine-Tuning**: Instead of retraining the LLM on new data (which can be costly and time-consuming), you only need to manage the data and how it's fed into the model.
+- **Cost-Effective**: Training an LLM requires significant computing power, but with in-context learning, you're simply working with prompts and databases, which most companies already know how to handle.
+
+### Common Questions:
+- **Can we just increase the model’s context window (its ability to process more text at once)?**
+   - While possible, it gets expensive very quickly. For example, asking GPT-4 a question over 10,000 pages could cost hundreds of dollars, making it impractical for most use cases.
+
+In summary, **in-context learning** is a clever and efficient way to use LLMs by focusing on managing data and prompts, rather than training or modifying the models themselves.
