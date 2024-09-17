@@ -8,8 +8,6 @@ The "Emotional AI" project aims to create a comprehensive platform for introspec
 
 * Chat Prototype: [Cross-platform App using Expo/React-Native](https://www.botski.info)
 
-* Working Case Studies: [Research Living Document](https://medium.com/@motato_42768/e-a-i-24014e13a592)
-
 * UX/UI Design: [Figma](https://medium.com/@motato_42768/e-a-i-24014e13a592)
   
 ## Emotional AI Book and The 3 Constants of Human Connection
