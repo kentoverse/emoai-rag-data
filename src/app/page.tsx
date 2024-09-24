@@ -4,11 +4,11 @@ import { HomePageAttributes } from '@/src/types';
 export default function Page() {
   const pageData: HomePageAttributes = {
     greeting: 'Hey Authentic Intelligent Beings,',
-    title: 'Emotional AI will Launch Soon!',
-    subtitle: 'The Emotional AI project aims to create a versatile platform for introspection and emotional analysis, serving as an API server and providing an admin UI for data management. Future plans include a cross-platform mobile version for public users. By leveraging IBM InspectorRAGet, we benefit from its proven framework, advanced metrics, scalability, integration capabilities, and robust community support, making it an ideal foundation for a sophisticated AI solution. ',
+    title: 'Emotional AI ',
+    subtitle: 'The Emotional AI is RAG Processing Generative Content that support a React Native Expo Chat App. It is a platform for introspection, journaling and relationship analysis, serving as an API server and providing an admin UI for data management. Future plans include a cross-platform mobile version for public users. By leveraging IBM RAG, we benefit from its proven framework, advanced metrics, scalability, integration capabilities, and robust community support, making it an ideal foundation for a sophisticated AI solution. ',
     subtitleLink: {
       content: 'Learn More',
-      href: 'https://github.com/kentoverse/emotional-AI',
+      href: 'https://github.com/kentoverse/emoai-rag-data',
       openInNewTab: true,
     },
     cards: [

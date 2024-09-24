@@ -105,7 +105,7 @@ export default memo(function HeaderView() {
         <HeaderGlobalAction
           aria-label="Github"
           onClick={() => {
-            window.open('https://github.com/kentoverse/emotional-AI', '_blank');
+            window.open('https://github.com/kentoverse/emoai-rag-data', '_blank');
           }}
         >
           <LogoGithub size={20} />
