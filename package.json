@@ -1,5 +1,5 @@
 {
-  "name": "@emoai/rga-analysis",
+  "name": "@emoai/rag-data",
   "version": "1.0.0-beta",
   "private": true,
   "description": "An Introspection Platform",
