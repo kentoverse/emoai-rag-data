@@ -4,11 +4,13 @@ Developmental Project by MO Cavada
 
 The "Emotional AI" project aims to create a comprehensive platform for introspection and emotional analysis. The project is structured to serve multiple purposes, including acting as an API server, providing an admin UI for data management and analysis, and planning for future expansion to include a cross-platform app using React Native.
 
-* Admin Prototype: [Dataset Procssing and LLM Analysis](https://www.kentoverse.com)
+## Prototypes on Developmemt
 
-* Chat Prototype: [Cross-platform App using Expo/React-Native](https://www.botski.info)
+* [Dataset Analyzer with LLM](https://www.kentoverse.com)
 
-* UX/UI Design: [ Unfinished ](https://www.figma.com/design/AcpskXz9xS0Y0qE7zngR9E/Untitled?node-id=0-1&t=pTsE8FtQNqlHFVqZ-1)
+* [Cross-platform Chat App React to React-Native](https://www.botski.info)
+
+* UX/UI Design: [ Figma Wireframe ](https://www.figma.com/design/AcpskXz9xS0Y0qE7zngR9E/Untitled?node-id=0-1&t=pTsE8FtQNqlHFVqZ-1)
 
 
 **Important Note: Emotional AI stands for Emotional Authentic Intelligence. We are not building an AI that mimics human emotions, which is impossible. Instead, our focus is on creating tools that help users introspect and understand their own emotions and interactions authentically.**
