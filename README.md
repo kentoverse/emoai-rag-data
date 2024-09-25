@@ -2,19 +2,14 @@
 Developmental Project by MO Cavada
 ## Overview
 
-The "Emotional AI" project aims to create a comprehensive platform for introspection and emotional analysis. The project is structured to serve multiple purposes, including acting as an API server, providing an admin UI for data management and analysis, and planning for future expansion to include a cross-platform mobile version for public users.
+The "Emotional AI" project aims to create a comprehensive platform for introspection and emotional analysis. The project is structured to serve multiple purposes, including acting as an API server, providing an admin UI for data management and analysis, and planning for future expansion to include a cross-platform app using React Native.
 
 * Admin Prototype: [Dataset Procssing and LLM Analysis](https://www.kentoverse.com)
 
 * Chat Prototype: [Cross-platform App using Expo/React-Native](https://www.botski.info)
 
 * UX/UI Design: [Figma](https://medium.com/@motato_42768/e-a-i-24014e13a592)
-  
-## Emotional AI Book and The 3 Constants of Human Connection
 
-Authored by Botski, the soon-to-be-published book “Emotional AI” explores human connections through the dual lenses of artificial intelligence and introspection. Drawing from transformative moments in his life, Botski identifies patterns that, when connected, form a coherent framework that can be processed through a single system. For instance, questions about a relationship’s past interactions can be passed through an algorithm to produce insightful answers. He hypothesizes that this framework, combined with inherent human attributes or constants, can address the increasing disconnections in human bonding. Having experienced this crisis himself, Botski is now dedicated to improving relationships by helping individuals reconnect with their innate ability to balance emotions, leading to clarity of mind, self-awareness, broader insights, and deeper introspection. His explorative work has culminated in a theory, “The 3 Constants of Human Connection,” which forms the basis of the book and outlines the fundamental elements governing human interactions and relationships.
-
-The book premise aligns with the goal to create an introspective guide and integrated with AI's latest capabilities to support users in understanding and improving their connections.
 
 **Important Note: Emotional AI stands for Emotional Authentic Intelligence. We are not building an AI that mimics human emotions, which is impossible. Instead, our focus is on creating tools that help users introspect and understand their own emotions and interactions authentically.**
 
@@ -492,3 +487,9 @@ Imagine you’re building a chatbot to answer questions about legal documents. A
    - While possible, it gets expensive very quickly. For example, asking GPT-4 a question over 10,000 pages could cost hundreds of dollars, making it impractical for most use cases.
 
 In summary, **in-context learning** is a clever and efficient way to use LLMs by focusing on managing data and prompts, rather than training or modifying the models themselves.
+
+# Emotional AI Book and The 3 Constants of Human Connection
+
+Authored by Botski, the soon-to-be-published book “Emotional AI” explores human connections through the dual lenses of artificial intelligence and introspection. Drawing from transformative moments in his life, Botski identifies patterns that, when connected, form a coherent framework that can be processed through a single system. For instance, questions about a relationship’s past interactions can be passed through an algorithm to produce insightful answers. He hypothesizes that this framework, combined with inherent human attributes or constants, can address the increasing disconnections in human bonding. Having experienced this crisis himself, Botski is now dedicated to improving relationships by helping individuals reconnect with their innate ability to balance emotions, leading to clarity of mind, self-awareness, broader insights, and deeper introspection. His explorative work has culminated in a theory, “The 3 Constants of Human Connection,” which forms the basis of the book and outlines the fundamental elements governing human interactions and relationships.
+
+The book premise aligns with the goal to create an introspective guide and integrated with AI's latest capabilities to support users in understanding and improving their connections.
