@@ -8,7 +8,7 @@ The "Emotional AI" project aims to create a comprehensive platform for introspec
 
 * Chat Prototype: [Cross-platform App using Expo/React-Native](https://www.botski.info)
 
-* UX/UI Design: [Figma](https://medium.com/@motato_42768/e-a-i-24014e13a592)
+* UX/UI Design: [ Unfinished ](#)
 
 
 **Important Note: Emotional AI stands for Emotional Authentic Intelligence. We are not building an AI that mimics human emotions, which is impossible. Instead, our focus is on creating tools that help users introspect and understand their own emotions and interactions authentically.**
