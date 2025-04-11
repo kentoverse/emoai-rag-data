@@ -1,4 +1,4 @@
-# The Emotional AI Project
+# The Introspection Project
 Developmental Project by MO Cavada
 ## Overview
 
